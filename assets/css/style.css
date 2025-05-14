@@ -44,7 +44,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 }
 .text-title {
 	color: white;
-	font-size: 80px;
+	font-size: 75px;
 	font-weight: 600;
 	margin-top: 20px;
 }
@@ -53,6 +53,8 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	margin-top: 40px;
 	font-size: 30px;
 	font-weight: 500;
+		margin-bottom: 50px;
+
 }
 .text-btn {
 	color: #5d7170 !important;
@@ -71,7 +73,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 }
 .weight {
 	font-weight: 700;
-	font-size: 35px;
+	font-size: 38px;
 }
 
 .blue {
