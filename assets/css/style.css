@@ -137,14 +137,14 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 }
 
 .img-mockup {
-	width: 48vw;
-	height: 500px;
+	width: 60vw;
+	height: 650px;
 	margin: 40px auto;
 	position: relative;
 }
 .img-mockup img {
 	width: 100%;
-	height: 500px;
+	height: 650px;
 	z-index: +1;
 	overflow: hidden;
 }
