@@ -18,7 +18,7 @@ body {
 
 /* nav bar  */
 .hero-section {
-background-image: linear-gradient(to top, #5d71707e, #5d7170), url("../images/‎⁨نسق\ -\ 2⁩.PNG") ;
+background-image: linear-gradient(to top, #5d717000, #5d717000), url("../images/‎⁨نسق\ -\ 2⁩.PNG") ;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -584,12 +584,12 @@ font-weight: 700;
 }
 .input{
     padding: 15px;
-    background-color: #61c0ea;
-    border: 1px solid #61c0ea;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
     margin-bottom: 15px;
     border-radius: 5px;
     outline: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .technical{
     margin-top: 70px;
