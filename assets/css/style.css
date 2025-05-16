@@ -51,7 +51,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 .text-brand {
 	color: white;
 	margin-top: 40px;
-	font-size: 30px;
+	font-size: 27px;
 	font-weight: 500;
 		margin-bottom: 50px;
 
@@ -474,7 +474,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 
 .card-works {
 	margin-top: 45px;
-	width:25rem;
+	width:20rem;
 	margin-right: 22px;
 	position: relative;
 	height: 30rem;
@@ -548,15 +548,39 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 }
 
 .testimonial-card img {
-	padding: 12px;
+	height: 110px;
+	width: 110px;
+	border-radius: 50%;
+	padding: 7px;
 	box-shadow: rgba(0, 132, 255, 0.1) 0px 4px 12px;
 }
 .testimonial-card p {
 	font-weight: 500;
+	font-size: 28px;
 }
 
 .testimonial-card h3 {
 	color: #5d7170;
+	font-size: 20px;
+}
+.spec-p{
+	font-size: medium !important;
+}
+.stars{
+	fill: rgb(255, 230, 0);
+ width: 3px !important;
+ height: 3px !important;
+}
+
+.callus{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+
+}
+.callus a {
+	width: 30px;
+	height: 30px;
 }
 /* contact */
 .contact{
@@ -761,6 +785,10 @@ display: none;
 }
 .container-flip{
     gap: 7px;
+}
+.card-works {
+width: 100%;
+
 }
 
 }
