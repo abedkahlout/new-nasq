@@ -547,7 +547,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	border-radius: 15px;
 }
 
-.testimonial-card img {
+.testimonial-card .saudi {
 	height: 110px;
 	width: 110px;
 	border-radius: 50%;
