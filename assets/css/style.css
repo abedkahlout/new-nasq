@@ -255,6 +255,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 
 .flip-card-front,
 .flip-card-back {
+
 	box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
 	position: absolute;
 	display: flex;
@@ -268,6 +269,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 }
 
 .flip-card-front {
+	padding: 10px;
 	background-color: white;
 	color: black;
 }
@@ -619,7 +621,7 @@ font-weight: 700;
     margin-top: 70px;
 }
 .technical-one{
-    padding: 40px;
+    padding: 5px;
     width: 250px;
     display: flex;
     justify-content: center;
@@ -627,8 +629,20 @@ font-weight: 700;
     background-color: white;
     border: 1px solid rgb(212, 212, 212);
 }
+.google{
+	background-color: #5d7170;
+	padding: 9px;
+	border-radius: 5px;
+	box-shadow: none;
+	
+}
+.google a {
+	color: white;
+	text-decoration: none;
+}
 footer{
-background-image: linear-gradient(to top, #5d7170b6, #5d7170), url("../images/‎⁨نسق\ -\ 1⁩.PNG") ;
+	/* linear-gradient(to top, #5d7170b6, #5d7170), */
+background-image:  url("../images/‎⁨نسق\ -\ 1⁩.PNG") ;
     padding: 40px;
     margin-top: 80px;
     color: white;
@@ -669,7 +683,7 @@ background-image: linear-gradient(to top, #5d7170b6, #5d7170), url("../images/�
   }
   
   .facebook {
-    background-color: #3b5998;
+    background-color: #f8faff;
   }
   
   .facebook svg {
@@ -695,7 +709,7 @@ background-image: linear-gradient(to top, #5d7170b6, #5d7170), url("../images/�
   }
   
   .linkedin {
-    background-color: #0077b5;
+    background-color: #09ff3e;
   }
   
   .linkedin svg {
