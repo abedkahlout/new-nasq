@@ -216,7 +216,35 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	z-index: -1;
 	overflow: hidden;
 }
+.bg-laptop{
+	background-image: url("../images/‎⁨نسق\ -\ 1⁩.PNG");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 70vh;
+	margin-top: 100px;
+color: white;
 
+display: flex;
+justify-content: center;
+align-items: center;
+justify-items: center;
+align-content: center;
+}
+.cbg-flex{
+gap: 40px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+justify-items: center;
+align-content: center;
+}
+.cbg-flex h3{
+font-size: 35px;
+line-height: 1.5;
+
+}
 .flip-card {
 	background-color: transparent;
 	width: 300px;
@@ -630,11 +658,18 @@ font-weight: 700;
     border: 1px solid rgb(212, 212, 212);
 }
 .google{
-	background-color: #5d7170;
-	padding: 9px;
+	background-color: #ffffff;
 	border-radius: 5px;
 	box-shadow: none;
+	padding: 11px 25px;
+	color: #5d7170;
+	text-decoration: none;
 	
+}
+
+.google:hover{
+color: rgb(23, 173, 91);
+
 }
 .google a {
 	color: white;
