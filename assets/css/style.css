@@ -85,9 +85,20 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	color: #5d7170;
 	font-size: 24px;
 	font-weight: 700;
-	margin-top: 8rem;
+	margin-top: 2.5rem;
 }
-
+.qeem2{
+	position: relative;
+}
+.qeem2::after{
+	content: "";
+	position: absolute;
+	right: 0;
+	bottom: -30px;
+	width: 60%;
+	height: 2px;
+	background-color: #5d7170;
+}
 .num-blue {
 	color: #5d7170;
 	font-size: 150px;
