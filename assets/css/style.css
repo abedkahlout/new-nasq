@@ -506,6 +506,12 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 .nav-tabs {
 	border: none !important;
 }
+  .img-bad{
+	
+	border-radius: 3%;
+		box-shadow: 0.4rem 0.4rem 0.6rem #a5a5a59d;
+
+  }
 
 .card-works {
 	margin-top: 45px;
@@ -686,22 +692,6 @@ font-weight: 700;
 	color: #5d7170;
 	font-weight: 700;
 	font-size: 70px;
-}
-.img1{
-	border-top-right-radius:5% ;
-
-}
-.img2{
-	border-bottom-right-radius:5% ;
-
-}
-.img3{
-	border-top-left-radius:5% ;
-	
-}
-.img4{
-	border-bottom-left-radius:5% ;
-
 }
 .google:hover{
 color: rgb(23, 173, 91);
