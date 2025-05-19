@@ -18,7 +18,7 @@ body {
 
 /* nav bar  */
 .hero-section {
-background-image: linear-gradient(to top, #5d717000, #5d717000), url("../images/‎⁨نسق\ -\ 2⁩.PNG") ;
+background-image: linear-gradient(to top, #5d717000, #5d717000), url("../images/الواجهة.PNG") ;
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -222,7 +222,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	overflow: hidden;
 }
 .bg-laptop{
-	background-image: url("../images/‎⁨نسق\ -\ 1⁩.PNG");
+	background-image: url("../images/الواجهة.PNG");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -251,12 +251,11 @@ line-height: 1.5;
 
 }
 .flip-card {
+
 	background-color: transparent;
 	width: 300px;
 	height: 354px;
-
 	perspective: 1000px;
-	font-family: sans-serif;
 }
 
 .title {
@@ -713,7 +712,7 @@ color: rgb(23, 173, 91);
 
 footer{
 	/* linear-gradient(to top, #5d7170b6, #5d7170), */
-background-image:  url("../images/‎⁨نسق\ -\ 1⁩.PNG") ;
+background-image:  url("../images/الواجهة.PNG") ;
     padding: 40px;
     margin-top: 80px;
     color: white;
