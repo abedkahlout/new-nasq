@@ -85,6 +85,7 @@ background: linear-gradient(to top, #5d7170, #5d7170);
 	color: #5d7170;
 	font-size: 24px;
 	font-weight: 700;
+	margin-top: 8rem;
 }
 
 .num-blue {
@@ -666,9 +667,40 @@ font-weight: 700;
 	padding: 11px 25px;
 	color: #5d7170;
 	text-decoration: none;
-	
+	font-weight: 700;
+}
+.google2{
+	background-color: #5d7170;
+	border-radius: 5px;
+	box-shadow: none;
+	padding: 11px 19px;
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	margin-top: 20px;
 }
 
+.qeem h1{
+	color: #5d7170;
+	font-weight: 700;
+	font-size: 70px;
+}
+.img1{
+	border-top-right-radius:5% ;
+
+}
+.img2{
+	border-bottom-right-radius:5% ;
+
+}
+.img3{
+	border-top-left-radius:5% ;
+	
+}
+.img4{
+	border-bottom-left-radius:5% ;
+
+}
 .google:hover{
 color: rgb(23, 173, 91);
 
@@ -896,5 +928,11 @@ width: 30%;
   .slide-cards {
     flex-direction: column;
     align-items: center;
+  }
+  .img-bad{
+	width: 100%;
+	height: 400px;
+	margin-top: 30px;
+	border-radius: 5%;
   }
 }
