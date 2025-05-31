@@ -994,6 +994,10 @@ background-image:  url("../images/الواجهة.PNG") ;
     fill: #333;
   }
 @media only screen and (max-width: 850px) {
+	.technical-one{
+   
+		width: 40%;
+}
 	.text-title{
 		font-size: 45px;
 	}
@@ -1053,7 +1057,7 @@ background-image:  url("../images/الواجهة.PNG") ;
 	}
 	.hero-section{
 		
-		min-height: 120vh !important;
+		min-height: 80vh !important;
 	}
 	.img-mockup {
 		width: 100%;
@@ -1127,16 +1131,23 @@ background-image:  url("../images/الواجهة.PNG") ;
 .blue{
     right: 20%;
 }
+.title{
+	font-size: 20px;
+}
 .flip-card-front p{
     font-size: 15px;
 }
 .container-flip{
     gap: 7px;
 }
+.bg-laptop{
+	min-height: 40vh;
+	
+}
 .card-works {
-width: 85%;
+width: 43%;
 
-height: 27rem;
+height: 13.5rem;
 }
 
 
@@ -1167,14 +1178,34 @@ width: 30%;
 .small-to-large {
 	display: none !important;
 }
+.flip-card{
+	width: 48%;
+}
   .slide-cards {
-    flex-direction: column;
-    align-items: center;
+
+	align-items: center;
   }
-  .img-bad{
-	width: 80%;
-	height: 400px;
-	margin-top: 30px;
-	border-radius: 5%;
-  }
+  .img-bad {
+        width: 41%;
+        height: 273px;
+        margin-top: 30px;
+        border-radius: 5%;
+        margin: 16px;}
+
+		.done p i{
+			font-size: 13px;
+		}
+		.we{
+			font-size: 25px;
+		}
+		.done p{
+			margin: 0;
+			padding: 10px;
+			width: 22%;
+			font-size: 15px;
+			height: 50px;
+		}
+		.boxa{
+    min-height: 100px;
+		}
 }
