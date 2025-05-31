@@ -981,6 +981,12 @@ background-image:  url("../images/الواجهة.PNG") ;
     fill: #333;
   }
 @media only screen and (max-width: 850px) {
+
+	.done{
+		position: relative;
+		right: auto;
+		bottom: auto;
+	}
 	.hero-section{
 		
 		min-height: 120vh !important;
