@@ -1030,6 +1030,7 @@ footer {
 	.we3 {
 		font-size: 30px !important;
 		text-align: center;
+		margin-top: 60px;
 	}
 	.onnasq , .p-goal{
 		color: #5d7170;
@@ -1197,9 +1198,7 @@ footer {
 	.img-bad {
 		width: 80%;
 		height: 370px;
-		margin-top: 30px;
 		border-radius: 5%;
-		margin: 32px;
 	}
 
 	.done p i {
