@@ -996,6 +996,8 @@ footer {
 	.target {
 		text-align: center !important;
 		width: 100%;
+		color: white !important;
+		text-decoration: none;
 	}
 	.look {
 		font-size: 18px;
