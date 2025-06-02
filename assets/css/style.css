@@ -519,7 +519,6 @@ body {
 }
 .prev-work h4 {
 	font-weight: 700;
-
 }
 
 /* tabs  */
@@ -615,11 +614,12 @@ body {
 	top: -120px;
 }
 .qemona {
-	background: url("../images/‎⁨نسق\ -\ 2⁩.PNG");
+	background: url("../images/الواجهة.PNG");
 	min-height: 280px;
 	min-width: 100%;
 	width: 100%;
 	margin: 40px 0;
+	background-size: cover;
 	position: relative;
 	border-radius: 10px;
 }
@@ -974,7 +974,28 @@ footer {
 .github:hover svg {
 	fill: #333;
 }
+.uae {
+	text-align: center;
+}
 @media only screen and (max-width: 850px) {
+	footer {
+		background-image: none;
+		background: #5d7170;
+		text-align: center !important;
+	}
+	.social-buttons {
+		justify-content: center;
+		margin: 0 !important;
+	}
+
+	.target {
+		text-align: center !important;
+		width: 100%;
+	}
+	.look {
+		font-size: 18px;
+		font-weight: 700;
+	}
 	.technical-one {
 		width: 25%;
 		border: 1px solid #f7f7f7;
@@ -991,6 +1012,8 @@ footer {
 	}
 	.qemona {
 		background-size: cover;
+			min-height: 200px;
+
 	}
 	.goals {
 		width: 100% !important;
@@ -1032,7 +1055,8 @@ footer {
 		text-align: center;
 		margin-top: 60px;
 	}
-	.onnasq , .p-goal{
+	.onnasq,
+	.p-goal {
 		color: #5d7170;
 	}
 
@@ -1053,10 +1077,11 @@ footer {
 	.hero-section {
 		min-height: 80vh !important;
 	}
-	.mobile-card1 , .prev-work p{
+	.mobile-card1,
+	.prev-work p {
 		display: none;
 	}
-	.mobile-section{
+	.mobile-section {
 		gap: 0;
 	}
 	.img-mockup {
@@ -1120,9 +1145,9 @@ footer {
 		font-size: 42px;
 		margin-top: 70px;
 	}
-.ourservice h1{
-	text-align: center;
-}
+	.ourservice h1 {
+		text-align: center;
+	}
 	.white {
 		font-size: 28px !important;
 		margin-top: 15px;
@@ -1137,7 +1162,7 @@ footer {
 		text-align: center;
 		font-size: 110px;
 	}
-	.target{
+	.target {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
@@ -1204,14 +1229,20 @@ footer {
 	.done p i {
 		font-size: 13px;
 	}
-	
+	.done{
+		position: absolute;
+		bottom: -15%;
+		right: 18%;
+	}
+
 	.we {
 		font-size: 25px;
+		margin-top: 4.5rem;
 	}
 	.done p {
 		margin: 0;
 		padding: 10px;
-		width: 22%;
+		width: auto;
 		font-size: 15px;
 		height: 50px;
 	}
