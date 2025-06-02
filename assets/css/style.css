@@ -1037,6 +1037,15 @@ footer {
 	.testimonial-card p {
 		font-size: 25px;
 	}
+	.hero-section{
+		background-position: 70%;
+		}
+		.navbar-nav {
+			background: #5d7170c9;
+    padding: 26px !important;
+    border-radius: 10px;
+		}
+	
 	.hero-section2 {
 		margin-top: 55px;
 	}
@@ -1230,9 +1239,7 @@ footer {
 		font-size: 13px;
 	}
 	.done{
-		position: absolute;
-		bottom: -15%;
-		right: 18%;
+		margin-bottom: -115%;
 	}
 
 	.we {
