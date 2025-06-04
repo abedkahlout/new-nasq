@@ -979,8 +979,9 @@ footer {
 }
 @media only screen and (max-width: 850px) {
 	.hero-section ,.qemona ,.bg-laptop {
-	background-image: linear-gradient(to top, #5d7170c7, #5d7170da),
-		url("../images/30-2.jpg");
+ background: url("../images/30-2.jpg");
+  background: linear-gradient(to top, rgba(93,113,112,0.16), rgba(93,113,112,0.22)),
+              url("../images/30-2.jpg");
 
 }
 	footer {
